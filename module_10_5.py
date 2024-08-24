@@ -11,7 +11,7 @@ def read_info(name):
         while line:
             all_data.append(line)
             line = n.readline()
-    return all_data
+    
 
 
 files = ['file 1.txt', 'file 2.txt', 'file 3.txt', 'file 4.txt']
